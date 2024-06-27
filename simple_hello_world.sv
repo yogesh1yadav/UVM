@@ -32,3 +32,6 @@ program automatic simple_test;                                                  
   end
 
 endprogram
+
+/*OUTPUT:
+# KERNEL: UVM_INFO /home/runner/testbench.sv(13) @ 0: uvm_test_top [HELLO] Hello World*/
