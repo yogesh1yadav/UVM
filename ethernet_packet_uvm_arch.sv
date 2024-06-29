@@ -148,3 +148,71 @@ module tb;
       run_test("test");
     end
 endmodule
+
+
+
+
+
+
+
+
+
+
+/*-----------OUTPUT----------------------------
+
+# KERNEL: UVM_INFO @ 0: reporter [RNTST] Running test test...
+# KERNEL: UVM_INFO /home/runner/testbench.sv(73) @ 0: uvm_test_top.env.drv [Driver] Received Data
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: Name                           Type      Size  Value           
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: pkt                            packet    -     @546            
+# KERNEL:   source_add                   integral  8     'h3a            
+# KERNEL:   dest_add                     integral  8     'hcd            
+# KERNEL:   data                         integral  16    'hb560          
+# KERNEL:   begin_time                   time      64    0               
+# KERNEL:   depth                        int       32    'd2             
+# KERNEL:   parent sequence (name)       string    7     pkt_seq         
+# KERNEL:   parent sequence (full name)  string    16    pkt_seqr.pkt_seq
+# KERNEL:   sequencer                    string    8     pkt_seqr        
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: Name                           Type      Size  Value           
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: pkt                            packet    -     @551            
+# KERNEL:   source_add                   integral  8     'h5b            
+# KERNEL:   dest_add                     integral  8     'hee            
+# KERNEL:   data                         integral  16    'h3581          
+# KERNEL:   begin_time                   time      64    0               
+# KERNEL:   depth                        int       32    'd2             
+# KERNEL:   parent sequence (name)       string    7     pkt_seq         
+# KERNEL:   parent sequence (full name)  string    16    pkt_seqr.pkt_seq
+# KERNEL:   sequencer                    string    8     pkt_seqr        
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: Name                           Type      Size  Value           
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: pkt                            packet    -     @552            
+# KERNEL:   source_add                   integral  8     'h30            
+# KERNEL:   dest_add                     integral  8     'hc3            
+# KERNEL:   data                         integral  16    'h4f56          
+# KERNEL:   begin_time                   time      64    0               
+# KERNEL:   depth                        int       32    'd2             
+# KERNEL:   parent sequence (name)       string    7     pkt_seq         
+# KERNEL:   parent sequence (full name)  string    16    pkt_seqr.pkt_seq
+# KERNEL:   sequencer                    string    8     pkt_seqr        
+# KERNEL: ---------------------------------------------------------------
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_report_server.svh(869) @ 0: reporter [UVM/REPORT/SERVER] 
+# KERNEL: --- UVM Report Summary ---
+# KERNEL: 
+# KERNEL: ** Report counts by severity
+# KERNEL: UVM_INFO :    3
+# KERNEL: UVM_WARNING :    0
+# KERNEL: UVM_ERROR :    0
+# KERNEL: UVM_FATAL :    0
+# KERNEL: ** Report counts by id
+# KERNEL: [Driver]     1
+# KERNEL: [RNTST]     1
+# KERNEL: [UVM/RELNOTES]     1
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 uvm_root.svh (521): $finish called.
+*/
